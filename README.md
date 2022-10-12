@@ -2,11 +2,17 @@
  script bash to exec Xpath command
 
 
-## Installation
+## Motivation
+
+The goal of this script is to write easyly Xpath in a file and get a return of each request in the cmd windows *(and to put comment in it)*  
+It is easy to transfer the script response in an other file with a ```cat``` command so it can be use to do a report for school exercises
+
+
+## How to Install
 
 Download the script to your file system
 
-## Usage
+## How to Use ?
 
 In a bash cmd windows:
 ```bash
@@ -30,7 +36,7 @@ chmod +x script-xpath.sh
 
 ## Contributing
 
-Pull request are welcome
+Pull request are welcome.
 
 
 

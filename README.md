@@ -39,7 +39,6 @@ chmod +x script-xpath.sh
 part of file.xpath
 ```
 ## return the russian speaking population
-
 sum(//country[child::language[.='Russian']]/@population)
 ```
 

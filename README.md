@@ -12,12 +12,12 @@ In a bash cmd windows:
 ```bash
 ./script-xpath.sh file.xpath file2.xml
 ```
-"file.xpath" (can be a .txt file) is the file witch contains xpath commands.\n
-You can write comment by starting the line with "##"\n
-Write your command line by line without quotes\n
+*file.xpath* (can be a .txt file) is the file witch contains xpath commands.  
+You can write comment by starting the line with "##"  
+Write your command line by line without quotes  
 You can have empty lines, they will be returned as is
 
-file2.xml is the xml file where the Xpath commands are executed
+*file2.xml* is the xml file where the Xpath commands are executed
 
 If the files are in different folders you can add path before files
 

@@ -34,6 +34,23 @@ If it doesn't work make sure that your are in a a bash cmd in the correct folder
 chmod +x script-xpath.sh
 ```
 
+## Code example
+
+part of file.xpath
+```
+## return the russian speaking population
+
+sum(//country[child::language[.='Russian']]/@population)
+```
+
+output
+```
+
+comment:  return the russian speaking population
+
+1.92106e+08
+```
+
 ## Contributing
 
 Pull request are welcome.
